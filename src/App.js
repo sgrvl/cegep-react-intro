@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import ProfilePage from "./Profile"
 import './App.css';
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
         >
           Learn React
         </a>
+        
+        <ProfilePage/>
       </header>
     </div>
   );
